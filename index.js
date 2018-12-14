@@ -12,6 +12,18 @@ $(document).ready(function () {
     //    $('input').prop('disabled', true);
 
 
+    $.ajax({
+        type: 'get',
+        dataType: 'JSON',
+        url: 'https://web-app-esd.herokuapp.com/',
+        success: function (data) {
+            console.log('data', data);
+            data.sort;
+        }
+    });
+
+
+
 
     $("button").on("click", function () {
         $('button').prop('disabled', true);

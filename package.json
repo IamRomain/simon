@@ -1,0 +1,16 @@
+{
+    "name": "Simon",
+    "version": "0.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "airtable": "^0.5.7",
+        "express": "^4.16.4",
+        "request": "^2.88.0"
+    }
+}
